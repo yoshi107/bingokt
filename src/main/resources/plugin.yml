@@ -1,0 +1,16 @@
+name: Bingo
+version: '${project.version}'
+main: bingo.bingo.Bingo
+api-version: 1.19
+prefix: びんごだにゃん//
+
+commands:
+  bingo:
+    aliases: [b, bg]
+    description: びんごです
+    permission: yoshi107.commands.bingo
+    permission-message: "いやん///権限ないよ///"
+
+permissions:
+  bingo.*:
+    default: op
